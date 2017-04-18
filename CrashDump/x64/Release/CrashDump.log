@@ -1,135 +1,16 @@
-﻿빌드 시작: 2017-04-17 오후 4:55:47
+﻿빌드 시작: 2017-04-18 오전 10:48:09
      1>2 노드의 "C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\CrashDump\CrashDump.vcxproj" 프로젝트(Build 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt DumpTest.cpp
          DumpTest.cpp
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(45): error C2146: 구문 오류 : ';'이(가) 'WINAPI' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(45): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(45): error C2146: 구문 오류 : ';'이(가) 'MyExceptionFilter' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(45): error C2061: 구문 오류 : 식별자 'PEXCEPTION_POINTERS'
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(46): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(109): warning C4183: 'MyExceptionFilter': 반환 형식이 없습니다. 'int'를 반환하는 멤버 함수로 간주됩니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(111): error C2146: 구문 오류 : ';'이(가) 'WINAPI' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(111): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(111): error C2086: 'int CCrashDump::LONG' : 재정의
-                 c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(45) : 'CCrashDump::LONG' 선언을 참조하십시오.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(111): error C2146: 구문 오류 : ';'이(가) 'RedirectedSetUnhandlerExceptionFilter' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(111): error C2061: 구문 오류 : 식별자 'EXCEPTION_POINTERS'
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(112): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(115): warning C4183: 'RedirectedSetUnhandlerExceptionFilter': 반환 형식이 없습니다. 'int'를 반환하는 멤버 함수로 간주됩니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(13): error C2065: '_invalid_parameter_handler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(13): error C2146: 구문 오류 : ';'이(가) 'oldHandler' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(13): error C2065: 'oldHandler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(13): error C2065: 'newHandler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(14): error C2065: 'newHandler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(16): error C2065: 'oldHandler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(16): error C2065: 'newHandler' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(16): error C3861: '_set_invalid_parameter_handler': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(17): error C2065: '_CRT_WARN' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(17): error C3861: '_CrtSetReportMode': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(18): error C2065: '_CRT_ASSERT' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(18): error C3861: '_CrtSetReportMode': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(19): error C2065: '_CRT_ERROR' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(19): error C3861: '_CrtSetReportMode': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(21): error C3861: '_CrtSetReportHook': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(26): error C3861: '_set_purecall_handler': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(28): error C2065: '_WRITE_ABORT_MSG' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(28): error C2065: '_CALL_REPORTFAULT' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(28): error C3861: '_set_abort_behavior': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(48): error C2065: 'SYSTEMTIME' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(48): error C2146: 구문 오류 : ';'이(가) 'stNowTime' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(48): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(50): error C3861: 'InterlockedIncrement': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(55): error C2065: 'HANDLE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(55): error C2146: 구문 오류 : ';'이(가) 'hProcess' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(55): error C2065: 'hProcess' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(56): error C2065: 'PROCESS_MEMORY_COUNTERS' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(56): error C2146: 구문 오류 : ';'이(가) 'pmc' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(56): error C2065: 'pmc' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(58): error C2065: 'hProcess' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(58): error C3861: 'GetCurrentProcess': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(60): error C2065: 'NULL' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(60): error C2065: 'hProcess' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(62): error C2065: 'hProcess' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(62): error C2065: 'pmc' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(62): error C2070: 'unknown-type': sizeof 피연산자가 잘못되었습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(62): error C3861: 'GetProcessMemoryInfo': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(64): error C2065: 'pmc' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(64): error C2228: '.WorkingSetSize' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(66): error C2065: 'hProcess' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(66): error C3861: 'CloseHandle': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(71): error C2065: 'WCHAR' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(71): error C2146: 구문 오류 : ';'이(가) 'filename' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(71): error C2065: 'filename' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(71): error C2065: 'MAX_PATH' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(73): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(73): error C3861: 'GetLocalTime': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(74): error C2065: 'filename' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(74): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(74): error C2228: '.wYear' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(74): error C2228: '.wMonth' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(75): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(75): error C2228: '.wDay' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(75): error C2228: '.wHour' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(75): error C2228: '.wMinute' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(75): error C2228: '.wSecond' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(74): error C3861: 'wsprintf': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(76): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(76): error C2228: '.wYear' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(76): error C2228: '.wMonth' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(77): error C2065: 'stNowTime' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(77): error C2228: '.wDay' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(77): error C2228: '.wHour' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(77): error C2228: '.wMinute' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(77): error C2228: '.wSecond' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(76): error C3861: 'wprintf': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(78): error C3861: 'wprintf': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C2065: 'HANDLE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C2146: 구문 오류 : ';'이(가) 'hDumpFile' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C2065: 'hDumpFile' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C2039: 'CreateFile' : '`global namespace''의 멤버가 아닙니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C2065: 'filename' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(81): error C2065: 'GENERIC_WRITE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(82): error C2065: 'FILE_SHARE_WRITE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(83): error C2065: 'NULL' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(84): error C2065: 'CREATE_ALWAYS' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(85): error C2065: 'FILE_ATTRIBUTE_NORMAL' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(85): error C2065: 'NULL' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(80): error C3861: 'CreateFile': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(87): error C2065: 'hDumpFile' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(87): error C2065: 'INVALID_HANDLE_VALUE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(89): error C2065: '_MINIDUMP_EXCEPTION_INFORMATION' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(89): error C2146: 구문 오류 : ';'이(가) 'MinidumpExceptionInformation' 식별자 앞에 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(89): error C2065: 'MinidumpExceptionInformation' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(91): error C2065: 'MinidumpExceptionInformation' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(91): error C2228: '.ThreadId' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(91): error C2039: 'GetCurrentThreadId' : '`global namespace''의 멤버가 아닙니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(91): error C3861: 'GetCurrentThreadId': 식별자를 찾을 수 없습니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(92): error C2065: 'MinidumpExceptionInformation' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(92): error C2228: '.ExceptionPointers' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(92): error C2065: 'pExceptionPointer' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(93): error C2065: 'MinidumpExceptionInformation' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(93): error C2228: '.ClientPointers' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
-                 'unknown-type' 형식입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(93): error C2065: 'TRUE' : 선언되지 않은 식별자입니다.
-     1>c:\users\user\documents\visual studio 2013\projects\broadcast\crashdump\crashdump\CrashDump.h(93): fatal error C1003: 오류 수가 100개를 초과했습니다. 컴파일을 중지합니다.
-     1>"C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\CrashDump\CrashDump.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\x64\Release\CrashDump.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\x64\Release\CrashDump.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\x64\Release\CrashDump.lib" /MACHINE:X64 x64\Release\APIHook.obj
+         x64\Release\DumpTest.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         CrashDump.vcxproj -> C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\x64\Release\CrashDump.exe
+     1>"C:\Users\USER\Documents\Visual Studio 2013\Projects\BroadCast\CrashDump\CrashDump\CrashDump.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
-빌드하지 못했습니다.
+빌드했습니다.
 
-경과 시간: 00:00:00.17
+경과 시간: 00:00:01.47

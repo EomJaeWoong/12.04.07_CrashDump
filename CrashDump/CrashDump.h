@@ -86,7 +86,7 @@ public :
 
 		if (hDumpFile != INVALID_HANDLE_VALUE)
 		{
-			_MINIDUMP_EXCEPTION_INFORMATION MinidumpExceptionInformation;
+			MINIDUMP_EXCEPTION_INFORMATION MinidumpExceptionInformation;
 
 			MinidumpExceptionInformation.ThreadId = ::GetCurrentThreadId();
 			MinidumpExceptionInformation.ExceptionPointers = pExceptionPointer;
@@ -146,5 +146,7 @@ public :
 
 	static long _DumpCount;
 };
+
+long CCrashDump::_DumpCount = 0;
 
 #endif

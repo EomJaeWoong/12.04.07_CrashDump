@@ -229,21 +229,21 @@ inline BOOL CToolhelp::HeapNext(PHEAPENTRY32 phe) const
 }
 
 
-inline BOOL CToolhelp::IsAHeap(HANDLE hProcess, PVOID pvBlock, PDWORD pdwFlags) const 
+inline BOOL CToolhelp::IsAHeap(HANDLE hProcess, PVOID pvBlock, PDWORD pdwFlags) const
 {
 	HEAPLIST32 hl = { sizeof(hl) };
-	for (BOOL fOkHL = HeapListFirst(&hl); fOkHL; fOkHL = HeapListNext(&hl)) 
+	for (BOOL fOkHL = HeapListFirst(&hl); fOkHL; fOkHL = HeapListNext(&hl))
 	{
 		HEAPENTRY32 he = { sizeof(he) };
 		BOOL fOkHE = HeapFirst(&he, hl.th32ProcessID, hl.th32HeapID);
-		for (; fOkHE; fOkHE = HeapNext(&he)) 
+		for (; fOkHE; fOkHE = HeapNext(&he))
 		{
 			MEMORY_BASIC_INFORMATION mbi;
-			VirtualQueryEx(hProcess, (PVOID) he.dwAddress, &mbi, sizeof(mbi));
-			if (chINRANGE(mbi.AllocationBase, pvBlock, (PBYTE) mbi.AllocationBase + mbi.RegionSize)) 
+			VirtualQueryEx(hProcess, (PVOID)he.dwAddress, &mbi, sizeof(mbi));
+			if (chINRANGE(mbi.AllocationBase, pvBlock, (PBYTE)mbi.AllocationBase + mbi.RegionSize))
 			{
-			*pdwFlags = hl.dwFlags;
-			return(TRUE);
+				*pdwFlags = hl.dwFlags;
+				return(TRUE);
 			}
 		}
 	}
